@@ -14,17 +14,42 @@ h1 {
 p {
     margin: 20px;
 }
+
+
 .recipes-list {
     text-align: center;
-    margin: 20px;
+    margin: 10px;
     padding: 1em;
 }
+
+.recipe-details {
+    max-width: 800px;
+    margin: 10px auto;
+    display: block;
+}
+
 a {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Ingredients {
+    border: 2px solid rgb(242, 235, 221);
+    background-color: rgb(242, 235, 221);
+    border-radius: 1em;
+    margin: 20px;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
+}
+
+.Steps {
+    margin: 20px;
+    background-color: antiquewhite;
+    border-radius: 1em;
+    border: 3px solid antiquewhite;
+    box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
 }
 
 img {
@@ -34,8 +59,7 @@ img {
     box-shadow: 0 2px 5px 1px rgba(64,60,67,.16);
 }
 
-li {
-    padding: 1px 0px;
-    margin: 2px;
-    border: 2px;
+h2 {
+    padding: 10px 20px;
+    margin: 5px auto;
 }
